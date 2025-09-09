@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Principală</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/style.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/logo.jpg" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/servicii.html">Servicii</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/clienti.html">Clienti</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main content -->
+    <main class="container">    
+        <!----------------- -->
+        <div class="custom-bg">
+            <p class="mb-1">Căutați mai multe informații sau doriți să încercați unul dintre planurile noastre SMART?</p>
+            <p>Trimiteți informațiile și un reprezentant SMART vă va contacta în cel mai scurt timp.</p>
+        </div>
+        <div> <strong> Adresa</strong>: Calea București 254D, Brașov, jud. Brașov 500144</div>
+        <div><strong> Telefon Fix: </strong> +40 368 418 387</div>
+        <div><strong> Telefon Mobil: </strong> +40 744 134 363</div>
+        <div> <strong> Email:</strong> <a href="mailto:office@smartmanole.ro">office@smartmanole.ro</a></div>
+        <div><strong> Website:</strong> <a href="https://www.smartmanole.ro">www.smartmanole.ro</a></div>
+
+        <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2789.154676022285!2d25.6149391!3d45.6378916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35c9f7e0b4b2f%3A0x6e6f6c2f3b9b6e1e!2sCalea%20Bucure%C8%99ti%20254D%2C%20Bra%C8%99ov%20500144!5e0!3m2!1sen!2sro!4v1694123456789!5m2!1sen!2sro" 
+  width="600" 
+  height="330" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        <br/>
+        <br/>
+        
+        <!----------------- -->
+        <div class="row mt-4">
+            <div class="custom-bg">
+                <p class="mb-1">Contactează-ne!</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniel Cheteleș</h5>
+                        <p class="card-text mb-1">Manager</p>
+                        <p class="card-text mb-1"><strong>Telefon:</strong> <a href="tel:+40744134363">+40 744 134 363</a></p>
+                        <p class="card-text"><strong>Email:</strong> <a href="mailto:daniel@smartmanole.ro">daniel@smartmanole.ro</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">XYZ</h5>
+                        <p class="card-text mb-1">Manager platformă</p>
+                        <p class="card-text mb-1"><strong>Telefon:</strong> <a href="tel:+40763902111">+40 763 902 111</a></p>
+                        <p class="card-text"><strong>Email:</strong> <a href="mailto:xyz@smartmanole.ro">xyz@smartmanole.ro</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">AAA</h5>
+                        <p class="card-text mb-1">Manager de proiect</p>
+                        <p class="card-text mb-1"><strong>Telefon:</strong> <a href="tel:+40763902222">+40 763 902 222</a></p>
+                        <p class="card-text"><strong>Email:</strong> <a href="mailto:office@smartmanole.ro">office@smartmanole.ro</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+
+        <!----------------- -->
+        <div class="row mt-4">
+            <div class="custom-bg">
+                <p class="mb-1">Trimite-ne un mesaj!</p>
+            </div>
+            <div class="col-md-8 mx-auto">
+                <p class="mb-4">Completează formularul de mai jos și revenim la tine cu un răspuns în maxim 24 de ore!</p>
+                <form id="contactForm" onsubmit="return false;">
+                    <div class="mb-3">
+                        <label for="nume" class="form-label">Nume</label>
+                        <input type="text" class="form-control" id="nume" name="nume" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mesaj" class="form-label">Mesaj</label>
+                        <textarea class="form-control" id="mesaj" name="mesaj" rows="4" required></textarea>
+                    </div>
+                    <a href="#" id="mailtoBtn" class="btn btn-primary">Trimite mesajul</a>
+                </form>
+                <script>
+                document.getElementById('mailtoBtn').addEventListener('click', function() {
+                    const nume = document.getElementById('nume').value;
+                    const email = document.getElementById('email').value;
+                    const mesaj = document.getElementById('mesaj').value;
+                    const subject = encodeURIComponent('Mesaj de la ' + nume);
+                    const body = encodeURIComponent('Nume: ' + nume + '\nEmail: ' + email + '\n\nMesaj:\n' + mesaj);
+                    this.href = `mailto:office@smartmanole.ro?subject=${subject}&body=${body}`;
+                });
+                </script>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">    
+        <div class="custom-bg">
+        <p class="mb-0">&copy; <span id="currentYear"> </span> Smart Manole. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/myscript.js" type="text/javascript"></script>
+</body>
+</html>
