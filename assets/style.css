@@ -25,3 +25,31 @@ html, body {
   width: 100%;
   border-radius: 0.5rem;
 }
+
+
+.partner-section {
+  margin: 32px 16px;
+  overflow: hidden;
+}
+
+.partner-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.partner-track {
+  display: flex;
+  gap: 32px;
+  animation: scrollPartners 20s linear infinite;
+}
+
+.partner-track img {
+  height: 80px;
+  object-fit: contain;
+}
+
+@keyframes scrollPartners {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
